@@ -24,6 +24,6 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+  - docker-compose.yml
   - README.md
   - LICENSE
-  - serve.ps1

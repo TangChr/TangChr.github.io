@@ -1,21 +1,21 @@
 # Site
-title: 'seaweed.dk'
-description: 'Personal Hub'
-keywords: 'christian tang, tang, christiantang, tangchr, christensen, cv, curriculum vitae, curriculum-vitae, linkedin, bluesky, instagram, github, weblog, blog'
-url: https://seaweed.dk/
-baseurl: '/'
-repository: TangChr/TangChr.github.io
+title: "seaweed.dk"
+description: "Personal Hub"
+keywords: "christian tang, tang, christiantang, tangchr, christensen, cv, curriculum vitae, curriculum-vitae, linkedin, bluesky, instagram, github, weblog, blog"
+url: https://seaweed.dk
+baseurl: ""
+repository: "TangChr/TangChr.github.io"
 
 # Author
 author:
-  name: 'Christian Tang Christensen'
+  name: "Christian Tang Christensen"
 
 # Build
 environment: production
 sass:
     load_paths:
-        - 'css'
-        - 'res/sticky-notes'
+        - "css"
+        - "res/sticky-notes"
 
 exclude:
   - res

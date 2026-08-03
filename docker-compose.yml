@@ -1,0 +1,19 @@
+name: github-tangchr
+services:
+  jekyll:
+    image: jekyll/jekyll:pages
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+      - bundle_cache:/usr/local/bundle
+    working_dir: /srv/jekyll
+    command: >
+      bundle exec jekyll serve
+      --host 0.0.0.0
+      --livereload
+      --config _config.yml,_config_local.yml
+
+volumes:
+  bundle_cache:
+    name: jekyll-bundle-cache

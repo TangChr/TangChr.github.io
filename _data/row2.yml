@@ -3,11 +3,6 @@
   header: "Software development"
   lines:  ["Source Control"]
 
-- name:   Bluesky
-  url:    https://bsky.app/profile/mekhlin.bsky.social
-  header: "@mekhlin"
-  lines:  ["Secondary Bluesky account about gaming"]
-
 - name:   Steam
   url:    http://steamcommunity.com/id/mekhlin
   header: "Gaming"
